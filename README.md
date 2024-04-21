@@ -39,5 +39,5 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ## Author
 
-- Github - [ren](https://github.com/ktmagno)
+- GitHub - [ren](https://github.com/ktmagno)
 - Frontend Mentor - [@ktmagno](https://www.frontendmentor.io/profile/yourusername)
