@@ -22,14 +22,14 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [https://recipe-page-for-omelette.netlify.app/](https://recipe-page-for-omelette.netlify.app/)
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-recipe-landing-page-using-css-ebQeI_OHYg]
+- Live Site URL: [https://recipe-page-for-omelette.netlify.app/]
 
 ## My process
 
 ### Built with
 
-- Semantic HTML5 markup
+- HTML5
 - CSS
 
 ### Useful resources
