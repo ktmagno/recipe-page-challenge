@@ -1,0 +1,301 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(30, 54%, 90%);
+  font-family: "Outfit", sans-serif;
+  size: 16px;
+  color: hsl(30, 10%, 34%);
+}
+
+.container {
+  background-color: hsl(0, 0%, 100%);
+  margin: auto;
+  width: 50%;
+  border-radius: 22px;
+  display: block;
+  padding: 40px;
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.title-desc h1 {
+  font-family: "Young Serif", serif;
+  color: hsl(24, 5%, 18%);
+  font-weight: 400;
+  font-size: 42px;
+  margin-top: 30px;
+  padding-bottom: 20px;
+}
+
+p {
+  line-height: 1.5;
+}
+
+.prep {
+  background-color: hsl(330, 100%, 98%);
+  margin: auto;
+  width: 100%;
+  border-radius: 10px;
+  display: relative;
+  padding: 30px;
+}
+
+.prep h3 {
+  color: hsl(332, 51%, 32%);
+}
+
+.prep ul {
+  list-style: none;
+  list-style-position: outside;
+  margin-left: 12px;
+  margin-top: 15px;
+  position: relative;
+  display: inline-block;
+}
+
+.prep li {
+  padding-left: 30px;
+  margin-top: 8px;
+  size: 5px;
+  line-height: 1.6;
+
+  position: relative;
+}
+
+ul > li::before {
+  content: "•";
+  font-weight: 900;
+  color: hsl(14, 45%, 36%);
+  position: absolute;
+  left: -5px;
+  top: 50%;
+  transform: translate(0%, -50%);
+}
+
+.ingredients ul {
+  list-style: none;
+  list-style-position: outside;
+  margin-left: 12px;
+}
+.ingredients li {
+  padding-left: 30px;
+  margin-top: 8px;
+  size: 5px;
+  line-height: 1.6;
+  position: relative;
+}
+
+h2 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: hsl(14, 45%, 36%);
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+hr {
+  margin-top: 30px;
+  border-top: 1px solid hsl(30, 18%, 87%);
+}
+
+.instructions ol {
+  margin-left: 20px;
+  margin-top: 8px;
+  padding: 5px;
+  list-style-position: outside;
+}
+
+.instructions li {
+  padding: 5px;
+  padding-left: 12px;
+  line-height: 1.5;
+}
+
+ol > li::marker {
+  font-weight: bold;
+  color: hsl(14, 45%, 36%);
+  padding-right: 28px;
+}
+
+.nutrition p {
+  padding: auto;
+  margin-bottom: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: -10px;
+}
+
+tr,
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+  padding-left: 30px;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+tr:last-child td {
+  border-color: transparent;
+}
+
+.vps {
+  font-weight: bold;
+  color: hsl(14, 45%, 36%);
+  padding-right: 30px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.attribution {
+  text-align: center;
+}
+
+@media (max-width: 900px) {
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background-color: hsl(30, 54%, 90%);
+  }
+
+  .container {
+    background-color: hsl(0, 0%, 100%);
+    margin: auto;
+    width: 70%;
+    border-radius: 22px;
+    display: block;
+    padding: 40px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+  }
+}
+
+@media (max-width: 600px) {
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border-radius: 0;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    margin: 0;
+    padding: 0;
+  }
+
+  .title-desc h1 {
+    font-size: 35px;
+    margin-top: 0px;
+    padding-bottom: 20px;
+    line-height: 25pt;
+  }
+
+  .content {
+    padding: 32px;
+  }
+
+  .instructions li {
+    padding: 5px;
+    padding-left: 10px;
+    line-height: 1.5;
+  }
+
+  .attribution {
+    text-align: center;
+    background-color: hsl(30, 54%, 90%);
+  }
+
+  @media (max-width: 245px) {
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+      width: 100%;
+      height: 100%;
+      font-size: 10px;
+    }
+
+    body {
+      background-color: hsl(0, 0%, 100%);
+    }
+    .container {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      border-radius: 0;
+    }
+
+    img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      border-radius: 0;
+      margin: 0;
+      padding: 0;
+    }
+
+    .title-desc h1 {
+      font-size: 15px;
+      margin-top: 5px;
+      padding-bottom: 20px;
+      line-height: 12pt;
+    }
+
+    .content {
+      padding: 0;
+      margin: 0;
+    }
+
+    .prep {
+      padding: 0;
+      margin: 0;
+    }
+
+    .prep ul {
+      padding: 0;
+      margin: 0;
+    }
+    h2 {
+      font-size: 12px;
+    }
+    .instructions li {
+      padding: 0px;
+      line-height: 1.5;
+    }
+  }
+}
