@@ -14,11 +14,11 @@ body {
 .container {
   background-color: hsl(0, 0%, 100%);
   margin: auto;
-  max-width: 700px;
+  max-width: 720px;
   min-height: fit-content;
   border-radius: 22px;
   display: block;
-  padding: 45px;
+  padding: 35px;
   margin-top: 120px;
   margin-bottom: 120px;
 }
@@ -121,7 +121,7 @@ hr {
 
 .instructions li {
   padding: 5px;
-  padding-left: 20px;
+  padding-left: 15px;
   line-height: 1.5;
 }
 
@@ -170,29 +170,6 @@ tr:last-child td {
 
 .attribution {
   text-align: center;
-}
-
-@media (max-width: 900px) {
-  html,
-  body {
-    margin: 0;
-    padding: 0;
-  }
-
-  body {
-    background-color: hsl(30, 54%, 90%);
-  }
-
-  .container {
-    background-color: hsl(0, 0%, 100%);
-    margin: auto;
-    width: 70%;
-    border-radius: 22px;
-    display: block;
-    padding: 40px;
-    margin-top: 120px;
-    margin-bottom: 120px;
-  }
 }
 
 @media (max-width: 600px) {
