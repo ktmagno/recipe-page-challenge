@@ -14,10 +14,11 @@ body {
 .container {
   background-color: hsl(0, 0%, 100%);
   margin: auto;
-  width: 50%;
+  max-width: 700px;
+  min-height: fit-content;
   border-radius: 22px;
   display: block;
-  padding: 40px;
+  padding: 45px;
   margin-top: 120px;
   margin-bottom: 120px;
 }
@@ -36,7 +37,7 @@ img {
   font-weight: 400;
   font-size: 42px;
   margin-top: 30px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 p {
@@ -45,7 +46,7 @@ p {
 
 .prep {
   background-color: hsl(330, 100%, 98%);
-  margin: auto;
+  margin-top: -10px;
   width: 100%;
   border-radius: 10px;
   display: relative;
@@ -120,7 +121,7 @@ hr {
 
 .instructions li {
   padding: 5px;
-  padding-left: 12px;
+  padding-left: 20px;
   line-height: 1.5;
 }
 
@@ -230,10 +231,19 @@ tr:last-child td {
 
   .instructions li {
     padding: 5px;
-    padding-left: 10px;
+    padding-left: 5px;
     line-height: 1.5;
   }
 
+  tr,
+  td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    padding-left: 15px;
+    text-align: justify;
+    line-height: 1.5;
+  }
   .attribution {
     text-align: center;
     background-color: hsl(30, 54%, 90%);
