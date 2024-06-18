@@ -41,3 +41,4 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 - GitHub - [ren](https://github.com/ktmagno)
 - Frontend Mentor - [@ktmagno](https://www.frontendmentor.io/profile/yourusername)
+- Twitter - [@ktmagno](https://www.twitter.com/yourusername)
