@@ -23,7 +23,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ### Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/responsive-recipe-landing-page-using-css-ebQeI_OHYg]
-- Live Site URL: [https://recipe-page-for-omelette.netlify.app/]
+- Live Site URL: [https://fem-omelette-recipe-page.netlify.app/]
 
 ## My process
 
